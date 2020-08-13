@@ -1,0 +1,11 @@
+h2{
+ text-align: center;
+}
+
+.home-image{
+  display: block;
+  margin: auto;
+  width: 65%;
+  height: 450px;
+  border: 1px solid black ;
+}

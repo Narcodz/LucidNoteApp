@@ -1,0 +1,15 @@
+.note-paper{
+ background-color:#fce023;
+ height:560px;
+ padding:0px 15px 0px 18px;
+}
+
+.note-description{
+   height:500px;
+}
+
+a { color: inherit; }
+
+a:hover{
+  cursor: pointer;
+}

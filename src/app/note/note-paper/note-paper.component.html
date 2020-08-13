@@ -1,0 +1,24 @@
+<div class="note-paper">
+  <div class="row" class="">
+    <div class="pull-left">
+      <h1>{{ note.name }}</h1>
+    </div>
+    <div class="pull-right" style="padding-top: 15px;">
+      <a (click)="onEditNote()" title="Edit Note">
+        <i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class="row note-description">
+    <div class="col-xs-12">
+      {{ note.description }}
+    </div>
+  </div>
+  <div class="row" class="">
+    <div class="pull-right">
+       <a style="cursor: pointer;" (click)="onDeleteNote()">
+        <i class="fa fa-trash fa-3x" aria-hidden="true"></i
+      ></a>
+    </div>
+  </div>
+</div>

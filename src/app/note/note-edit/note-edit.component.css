@@ -1,0 +1,36 @@
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+.button-edit-note{
+  width: 100%;
+  border: none;
+  background-color: #0c4ba6;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-delete-note{
+  width: 10%;
+  border: none;
+  background-color:#CA0B00;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+}
+
+/* .noteEditMode{
+  vertical-align: middle;
+} */
+
+.noteEditMode{
+  vertical-align: middle;
+  font-size: x-large;
+  padding:5px;
+  padding-top: 10px;
+  font-weight:bold;
+}

@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="button-new-note" (click)="onNewNote()">New Note
+       <i class="fas fa-plus fa-lg pull-right" style="padding-top: 4px;"></i>
+    </button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <app-note-item
+      *ngFor="let singleNote of notes; let i = index"
+      [note]="singleNote"
+      [index]="i"></app-note-item>
+  </div>
+</div>
