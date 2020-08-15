@@ -20,7 +20,6 @@ export class NoteListComponent implements OnInit, OnDestroy {
     private notesService: NotesService,
     private router: Router,
     private route: ActivatedRoute,
-    private dataStorageService: DataStorageService
   ) {}
 
   ngOnInit() {

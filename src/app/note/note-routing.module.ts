@@ -15,13 +15,13 @@ const NoteRoutes: Routes = [
       {
         path: 'new',
         component: NoteEditComponent,
-        // canActivate: [AuthGuard]
+        canActivate: [AuthGuard]
       },
       { path: ':id', component: NotePaperComponent }, //Dynamic route
       {
         path: ':id/edit',
         component: NoteEditComponent,
-        //  canActivate: [AuthGuard]
+        canActivate: [AuthGuard]
       }, //Dynamic route
     ],
   },

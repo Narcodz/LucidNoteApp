@@ -12,6 +12,7 @@ textarea.ng-invalid.ng-touched{
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  border-radius: 5px;
 }
 
 .button-delete-note{
@@ -21,11 +22,8 @@ textarea.ng-invalid.ng-touched{
   color: white;
   padding: 14px;
   font-size: 16px;
+  border-radius: 5px;
 }
-
-/* .noteEditMode{
-  vertical-align: middle;
-} */
 
 .noteEditMode{
   vertical-align: middle;

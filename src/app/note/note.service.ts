@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { Note } from './note.model';
 import { Subject } from 'rxjs';
+import { DataStorageService } from '../shared/data-storage.service';
 
 @Injectable()
 export class NotesService {
